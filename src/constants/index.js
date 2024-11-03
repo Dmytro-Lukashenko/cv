@@ -3,9 +3,18 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = "dedicated to creating stunning user interfaces with Vue.js framework and React.js library. I specialize in building robust web applications while effectively managing backend services and databases.";
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = {
+  firstParagraph: "With over two years of experience in development, I am a certified Vue.js developer specializing in building responsive web applications using both the VueJS framework and React.js library. Skilled in tackling complex challenges, I bring proficiency in advanced technologies, database management, and RESTful API development using Node.js and Express.js.",
+  secondParagraph: "My active contributions to open-source projects like AntDesign, MSAL, VueSchool, and PrimeVue reflect my dedication to collaborative software development. Additionally, I have hands-on experience leveraging my expertise in dynamic team environments on commercial projects."
+};
+
+export const SOCIAL_LINKS = {
+  linkedin: "https://www.linkedin.com/in/-lukashenko-dmytro/",
+  github: "https://github.com/Dmytro-Lukashenko",
+  telegram: "https://t.me/Dmytro_Lukashenko"
+}
 
 export const EXPERIENCES = [
   {
@@ -70,7 +79,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Kyiv, Ukraine",
+  phoneNo: "+38 066 622-39-91",
+  email: "d.a.lukashenko@gmail.com",
 };
