@@ -11,10 +11,10 @@ const Projects = () => {
         viewport={{ once: true}}
         className="my-20 text-center text-4xl"
       >
-        Projects
+        Commercial Projects
       </motion.h2>
       {PROJECTS.map((project, index) => (
-        <div className="flex flex-wrap lg:justify-center" key={index}>
+        <div className="flex flex-wrap lg:justify-center mb-8" key={index}>
           <motion.div 
           whileInView={{opacity: 1, x: 0}}
           initial={{ opacity: 0, x: -100}}
