@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/smart_city.png";
-import project2 from "../assets/projects/interview_buddy.jpg";
+import project1 from "../assets/projects/interview_buddy.jpg";
+import project2 from "../assets/projects/smart_city.png";
 
 export const HERO_CONTENT =
   "dedicated to creating stunning user interfaces with Vue.js framework and React.js library. I specialize in building robust web applications while effectively managing backend services and databases.";
