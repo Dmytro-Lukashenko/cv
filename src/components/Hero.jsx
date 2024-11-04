@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/hero.png";
+import profilePic from "../assets/profile.png";
 import { motion } from "framer-motion";
+import DownloadButton from "./DownloadButton";
+import cvPath from "../assets/CVDmytroLukashenko.pdf"
 
 const motionContainer = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -42,9 +44,7 @@ const Hero = () => {
                 {HERO_CONTENT}
               </p>
               <div className="flex w-full justify-end">
-              <button className="shadow-none hover:shadow-[0_0_60px_-15px_rgba(255,255,255,0.3)] px-4 py-1 border-2 rounded-md text-neutral-400 hover:text-neutral-300 border-neutral-500 hover:border-neutral-400 transition-all duration-700">
-                Download CV
-              </button>
+                <DownloadButton filePath={cvPath} btnText={"Download CV"} />
               </div>
             </motion.div>
           </div>
