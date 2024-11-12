@@ -6,7 +6,7 @@ export const HERO_CONTENT =
 
 export const ABOUT_TEXT = {
   firstParagraph:
-    "With over two years of experience in development, I am a certified Vue.js developer specializing in building responsive web applications using both the VueJS framework and React.js library. Skilled in tackling complex challenges, I bring proficiency in advanced technologies, database management, and RESTful API development using Node.js and Express.js.",
+    "With over three years of experience in development, I am a certified Vue.js developer specializing in building responsive web applications using both the VueJS framework and React.js library. Skilled in tackling complex challenges, I bring proficiency in advanced technologies, database management, and RESTful API development using Node.js and Express.js.",
   secondParagraph:
     "My active contributions to open-source projects like AntDesign, MSAL, VueSchool, and PrimeVue reflect my dedication to collaborative software development. Additionally, I have hands-on experience leveraging my expertise in dynamic team environments on commercial projects.",
 };
@@ -20,14 +20,14 @@ export const SOCIAL_LINKS = {
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Full Stack Developer",
+    role: "Frontend Developer",
     company: "Levi9",
     description: `Developed and maintained web applications using Vue.js, React.js, and Expess.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Vue.js", "React.js", "Express.js", "MongoDB"],
   },
   {
     year: "2021 - 2023",
-    role: "Frontend Developer",
+    role: "Frontend Trainee",
     company: "Levi9",
     description: `Developing efficient, fast, and adaptive layouts for user interfaces, ensuring optimal performance and responsiveness.
 Introducing ideas and solutions, optimizing and improving existing applications to meet modern web standards and user expectations.
