@@ -48,14 +48,14 @@ export const PROJECTS = [
     title: "Feedback App",
     image: project1,
     description:
-      "Effective feedback collection tool that provides a way to capture the result of the interview and visualize it in all-in-one report",
+      "Effective feedback collection tool that provides a way to capture the result of the interview and visualize it in all-in-one report.",
     technologies: ["HTML", "SCSS", "Typescript", "Vue.js", "AntDesign", "React.js", "MUI", "Express.js", "MongoDB"],
   },
   {
     title: "Smart City App",
     image: project2,
     description:
-      "The WebUI admin panel for the service workers provides functionality for check and adjustment of the road control devices",
+      "The WebUI admin panel for the service workers provides functionality for check and adjustment of the road control devices.",
     technologies: ["HTML", "CSS", "Vue.js 3", "PrimeVue"],
   },
 ];
